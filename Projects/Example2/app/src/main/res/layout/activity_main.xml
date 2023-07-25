@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.egod1537.visualizlibraryeditedaar.GraphicView
+                android:id="@+id/fibonacci"
+                android:layout_width="400dp"
+                android:layout_height="200dp"/>
+
+            <com.egod1537.visualizlibraryeditedaar.GraphicView
+                android:id="@+id/binary_search"
+                android:layout_width="400dp"
+                android:layout_height="200dp"/>
+
+            <com.egod1537.visualizlibraryeditedaar.GraphicView
+                android:id="@+id/prefixSum"
+                android:layout_width="400dp"
+                android:layout_height="200dp"/>
+
+            <com.egod1537.visualizlibraryeditedaar.GraphicView
+                android:id="@+id/bfs"
+                android:layout_width="400dp"
+                android:layout_height="200dp" />
+
+            <com.egod1537.visualizlibraryeditedaar.GraphicView
+                android:id="@+id/convexHull"
+                android:layout_width="400dp"
+                android:layout_height="600dp"/>
+
+            <com.egod1537.visualizlibraryeditedaar.GraphicView
+                android:id="@+id/dijkstra_view"
+                android:layout_width="400dp"
+                android:layout_height="200dp" />
+
+            <com.egod1537.visualizlibraryeditedaar.GraphicView
+                android:id="@+id/dijkstra_table"
+                android:layout_width="400dp"
+                android:layout_height="200dp" />
+
+            <com.egod1537.visualizlibraryeditedaar.GraphicView
+                android:id="@+id/segmentree"
+                android:layout_width="400dp"
+                android:layout_height="200dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
